@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(120deg, #11114e, #22229C)
+}
+
+#cornometro {
+    height: 200px;
+    width: 550px;
+    position: fixed;
+    top: 0;
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    background: #3333E8;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+}
+
+#cornometro h3 {
+    margin-top: 10px;
+    background-color: #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+}
+#cornometro span,
+#cornometro h3{
+    color: #fff;
+}
+
+.timer {
+    background-color: #000;
+    height: 75px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 15px;
+}
+
+.separador {
+    padding: 0 10px;
+    color: #525763;
+}
+
+#milissegundos-cornometro {
+    font-size: 25px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#pauseBtn, #resumeBtn {
+    display: none;
+}
+
+
+/******************************RELOGIO *******************************/
+
+#container {
+    height: 300px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #3333E8;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px;
+    letter-spacing: 3px;
+}
+
+#container span {
+    color: #fff;
+}
+
+#hora, #minuto, #segundo {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.texto {
+    font-size: 30px;
+}
+
+#horas, #minutos, #segundos {
+    font-size: 90px;
+}
+
+
+
+

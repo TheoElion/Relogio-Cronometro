@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+    <title>Relogio</title>
+</head>
+<body>
+    
+    <div id="cornometro">
+        <h3>Cronometro</h3>
+
+        <div class="timer">
+            <span class="time-cornometro" id="minutos-cornometro">00</span>
+            <div class="separador">:</div>
+            <span class=time-cornometro id="segundos-cornometro">00</span>
+            <div class="separador">:</div> 
+            <span class=time-cornometro id="milissegundos-cornometro">00</span>
+        </div>
+
+        <div class="buttons">
+           <button class="btn" id="startBtn"> Iniciar</button> 
+           <button class="btn" id="pauseBtn">Pausar</button> 
+           <button class="btn" id="resumeBtn">Continuar</button> 
+           <button class="btn" id="resetBtn">Resetar</button> 
+        </div>
+
+    </div>
+
+    <div id="container">
+
+        <div id="hora">
+            <span id="horas">00</span>
+            <span class="texto">Horas</span>
+        </div>
+
+        <div id="minuto">
+            <span id="minutos">00</span>
+            <span class="texto">Minutos</span>
+        </div>
+
+        <div id="segundo">
+            <span id="segundos">00</span>
+            <span class="texto">Segundos</span>
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>
